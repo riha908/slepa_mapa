@@ -26,7 +26,7 @@ public class TitleScreen {
 
         button.addActionListener(e ->{
             this.frame.dispose();
-
+            new Mapa().init();
         });
 
 
